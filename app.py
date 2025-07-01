@@ -45,31 +45,31 @@ st.markdown(
     
     /* —— 全局字体放大 —— */
     html, body, [class*="css"] {
-        font-size: 28px !important;    /* 根据需要改成 22px / 24px ... */
+        font-size: 24px !important;    /* 根据需要改成 22px / 24px ... */
     }
 
     /* —— 特别放大 pinyin 单选项的文字 —— */
     /* Streamlit 的 radio option 会把文本包在 <label><span> 里： */
     div[role="radiogroup"] label span {
-        font-size: 36px !important;    /* 这里就是拼音选项的字号 */
+        font-size: 24px !important;    /* 这里就是拼音选项的字号 */
         font-weight: 700 !important;
     }
 
     /* —— 如果你还有其它想单独调大的，比如标题 h3 —— */
     div.stMarkdown h3 {
-        font-size: 28px !important;
+        font-size: 24px !important;
         font-weight: 700 !important;
     }
 
     /* —— 放大示例词标题 h5 —— */
       div.stMarkdown h5 {
-          font-size: 28px !important;
+          font-size: 24px !important;
     }
 
     /* 把所有 stButton 里的按钮字体放大到 80px */
       div.stButton > button {
-        font-size: 100px !important;
-        line-height: 1 !important;
+        font-size: 40px !important;
+        line-height: 0.8 !important;
         font-weight: 700 !important;
         padding: 0.1em 0.2em !important;
 
@@ -129,7 +129,7 @@ st.markdown(
     f"""
     <div style="display: flex; align-items: center; margin-bottom: 0px;">
       <img src="data:image/png;base64,{icon_b64}" width="120" style="margin-right: 16px;" />
-      <h1 style="margin: 0; line-height: 1;">安安识字</h1>
+      <h1 style="margin: 0; line-height: 0.8;">安安识字</h1>
     </div>
     """,
     unsafe_allow_html=True,
