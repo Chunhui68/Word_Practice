@@ -71,7 +71,7 @@ st.markdown(
         font-size: 40px !important;
         line-height: 0.8 !important;
         font-weight: 700 !important;
-        padding: 0.1em 0.2em !important;
+        padding: 0.2em 0.2em !important;
 
     </style>
     """,
